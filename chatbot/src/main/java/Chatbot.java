@@ -172,16 +172,8 @@ public class Chatbot {
             }
             else if(input.contains("distance")||input.contains("how far")){
                 out.println("Friendly: "+"Opening map ...");
-                //              try {
-                //         InetAddress addr;
-                //         Socket sock = new Socket("maps.google.com", 80);
-                //         addr = sock.getInetAddress();
-                //         System.out.println("Connected to " + addr);
-                //         sock.close();
-                //      } catch (java.io.IOException e) {
-                //         System.out.println("Can't connect to " + args[0]);
-                //         System.out.println(e);
-                //      }
+                  System.out.println("Can't connect to " + args[0]);
+                
                 try {
                     Desktop desktop = java.awt.Desktop.getDesktop();
                     URI oURL = new URI("http://maps.google.com");
@@ -236,7 +228,7 @@ public class Chatbot {
 
             }
             else if(input.contains("what is your name?")){
-                out.println("Friendly: "+"I am ghortana");
+                out.println("Friendly: "+"I am Friendly");
 
             }
             else if(input.contains("where were you born")){
