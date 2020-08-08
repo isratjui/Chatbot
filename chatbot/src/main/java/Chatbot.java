@@ -217,17 +217,17 @@ public class Chatbot {
             }
             else if(input.contains("name")&&input.contains("flowers")){
                 out.println("Friendly: "+"ROSE\n\tMARIGOLD\n\tLAVENDER\n\tCHERRYBLOSSOMS");
-                //out.println("What is your name");
+               
 
             }
             else if(input.contains("favourite")&&input.contains("flower")){
                 out.println("Friendly: "+"I love Tuberoses.\n\t They have nice smell");
-                //out.println("What is your name");
+                
 
             }
             else if(input.contains("favourite")&&input.contains("fruit")){
                 out.println("Friendly: "+"I love Mangoes.\n\t They are tasty!");
-                //out.println("What is your name");
+                
 
             }
             else if(input.contains("name")&&input.contains("fruits")){
@@ -247,7 +247,7 @@ public class Chatbot {
                 Date date = new Date();
                 out.printf("Friendly: "+"%1$s %2$tB %2$td, %2$tY\n", " ", date);
 
-                //out.println(Date);
+                
 
             }
             else if(input.contains("time")||input.contains("what is the time")){
