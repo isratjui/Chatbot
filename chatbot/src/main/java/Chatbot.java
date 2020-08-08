@@ -1,8 +1,5 @@
 import java.awt.Desktop;
 import static java.lang.System.out;
-        import java.net.InetAddress;
-        import java.net.MalformedURLException;
-        import java.net.Socket;
         import java.net.URI;
         import java.net.URL;
         import java.net.URLConnection;
@@ -11,11 +8,7 @@ import static java.lang.System.out;
 
 
 public class Chatbot {
-    //    static String input;
-    //    Scanner kb=new Scanner(System.in);
-    //    public void getname(){
-    //
-    //    }
+   
     String name;
     public static void main(String args []){
         out.println("Hello I am Friendly");
