@@ -109,7 +109,7 @@ public class Chatbot {
                 }
             }
             else if(input.contains("food")||input.contains("eat")||input.contains("eating")||input.contains("restaurant")||input.contains("restaurants")){
-                // out.println("Friendly: "+"moo");
+                
                 try {
                     Desktop desktop = java.awt.Desktop.getDesktop();
                     URI oURL = new URI("http://www.foodpanda.com");
@@ -119,7 +119,7 @@ public class Chatbot {
                 }
             }
             else if(input.contains("rhyme")||input.contains("rhymes")){
-                // out.println("Friendly: "+"moo");
+                
                 try {
                     Desktop desktop = java.awt.Desktop.getDesktop();
                     URI oURL = new URI("http://www.rhymes.org.uk/");
@@ -277,7 +277,7 @@ public class Chatbot {
             }
 
             else if(input.contains("news")){
-                // out.println("Friendly: "+"Welcome");
+                
                 try{
                     Desktop desktop = java.awt.Desktop.getDesktop();
                     URI oURL = new URI("http://www.dailystar.net");
